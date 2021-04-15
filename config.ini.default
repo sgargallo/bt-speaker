@@ -1,5 +1,5 @@
 [bt_speaker]
-play_command = aplay -f cd -
+play_command = aplay -f cd -D sysdefault:CARD=Headphones -
 connect_command = /etc/bt_speaker/hooks/connect
 disconnect_command = /etc/bt_speaker/hooks/disconnect
 startup_command = /etc/bt_speaker/hooks/startup
