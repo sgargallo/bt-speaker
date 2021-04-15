@@ -6,6 +6,32 @@ BT-Speaker aims to _just work_ on a vanilla installation using pure ALSA.
 
 ## Installation
 
+Crear el archivo machine-info con el nombre que se desea mostrar para el dispositivo:
+
+```bash
+sudo nano /etc/machine-info
+```
+Añadir el siguiente texto:
+
+```bash
+PRETTY_HOSTNAME=<NewName> 
+```
+
+Modificar el archivo /etc/bluetooth/main.conf:
+
+```bash
+sudo nano /etc/bluetooth/main.conf
+```
+
+Descomentar las siguientes líneas:
+
+```bash
+DiscoverableTimeout = 0
+PairableTimeout = 0
+```
+
+Una vez hecho, ya se puede instalar el módulo con normalidad.
+
 Quick Installation for Raspberry Pi OS:
 
 ```bash
