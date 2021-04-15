@@ -30,7 +30,7 @@ DiscoverableTimeout = 0
 PairableTimeout = 0
 ```
 
-Una vez hecho, ya se puede instalar el módulo con normalidad.
+Una vez hecho, ya se puede instalar el módulo con normalidad. Revisar en el archivo de configuración que el play_command está apuntando a la placa de sonido correcta.
 
 Quick Installation for Raspberry Pi OS:
 
