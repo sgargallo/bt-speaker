@@ -4,6 +4,12 @@ A simple Bluetooth Speaker Daemon designed for the Raspberry Pi 3.
 
 ## Installation
 
+Si se desea, cambiar el nombre del equipo con
+
+```bash
+sudo nano /etc/bluetooth/main.conf
+```
+
 Quick Installation for Raspbian:
 
 ```bash
